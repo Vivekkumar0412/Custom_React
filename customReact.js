@@ -19,7 +19,8 @@ const reactElement = {
     props : {
         href : 'https://google.com',
         target : '_blank',
-        class : 'check'
+        class : 'check',
+        class : 'check2'
     },
     children : 'Click me !!!!'
 }

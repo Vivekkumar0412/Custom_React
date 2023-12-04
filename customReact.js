@@ -25,6 +25,18 @@ const reactElement = {
     children : 'Click me !!!!'
 }
 
+const reactElement2 = {
+    type : 'a',
+    props : {
+        href : 'https://instagram.com',
+        target : '_blank',
+        class : 'check',
+        class : 'check2'
+    },
+    children : 'Instagram !!!!'
+}
+
 const root = document.getElementById("root");
 customRender(reactElement,root);
+customRender(reactElement2,root);
 // console.log(root)
